@@ -1,0 +1,1 @@
+I coded the RaceCarDriver.h implementation to solve the maze project given by my algorithms class. It uses DFS the first run to find the exit, DFS the second run (while avoiding the exit) to find the entire maze layout, then uses BFS to make the most efficient path to finish the last two runs.
