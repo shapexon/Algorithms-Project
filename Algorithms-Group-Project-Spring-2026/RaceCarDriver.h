@@ -154,7 +154,7 @@ public:
 				nodeList.push_back(finishNode);
 			}
 			if (runOn == 3) {
-				pathInstructions = pathInstructionsCopy;
+				
 			}
  		}
 
@@ -170,6 +170,9 @@ public:
 			finishX = x;
 			finishY = y;
 			pathInstructions.pop();
+			if (pathInstructions.size() == 0) {
+				pathInstructions = pathInstructionsCopy;
+			}
 			return d;
 		}
 
